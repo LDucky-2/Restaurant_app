@@ -4,7 +4,6 @@ package com.app.restaurant_app;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.stage.Stage;
@@ -121,6 +120,7 @@ public class Utility {
                     object_arraylist.add(object);
                 }
                 catch (Exception e) {
+                    show_information_alert("the read_object function failed due to wrong casting check your code!");
                     break;
                 }
 
