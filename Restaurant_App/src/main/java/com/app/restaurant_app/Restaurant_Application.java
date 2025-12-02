@@ -23,5 +23,8 @@ public class Restaurant_Application extends Application {
 //        Employee employee = new Restaurant_manager(100000,"Restaurant Manager");
 //        Utility.write_object("data_files/employee_data.bin",employee);
         launch();
+
+
+        // to sign in just use id: 100000, and password: 1000000 ( this logs you in as the restaurant manager)
     }
 }

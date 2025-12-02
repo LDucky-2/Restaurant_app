@@ -51,7 +51,7 @@ public class Sign_in_scene_controller {
         boolean is_gmail_valid =
                 (gmail_textfield.getText().length() == 6 && is_integer(gmail_textfield.getText())) ||
                         gmail_textfield.getText().endsWith("@gmail.com");
-        boolean is_password_valid = password_textfield.getText().length() > 6;
+        boolean is_password_valid = password_textfield.getText().length() >= 6;
 
         if(!are_any_fields_empty && is_gmail_valid && is_number_valid && is_password_valid) {
             String unique_identifier = gmail_textfield.getText();
