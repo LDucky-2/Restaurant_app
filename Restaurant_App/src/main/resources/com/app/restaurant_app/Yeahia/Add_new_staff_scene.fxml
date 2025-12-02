@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.app.restaurant_app.Yeahia.controller_classes.Add_new_staff_scene_controller">
+    <Label layoutX="31.0" layoutY="47.0" text="Staff Id: " />
+    <TextField fx:id="new_staff_id_textfield" layoutX="106.0" layoutY="43.0" />
+    <Label layoutX="31.0" layoutY="95.0" text="Staff Type:  " />
+    <ChoiceBox fx:id="new_staff_type_choicebox" layoutX="106.0" layoutY="91.0" prefWidth="150.0" />
+    <Button layoutX="234.0" layoutY="477.0" mnemonicParsing="false" onAction="#add_staff_button_on_action" prefHeight="26.0" prefWidth="132.0" text="Add staff" />
+   <TableView fx:id="schedule_tableview" layoutX="136.0" layoutY="235.0" prefHeight="200.0" prefWidth="325.0">
+     <columns>
+       <TableColumn fx:id="days_coloumn" prefWidth="118.4000244140625" text="Days" />
+       <TableColumn fx:id="shifts_coloumn" prefWidth="205.60000000000002" text="Shift" />
+     </columns>
+   </TableView>
+   <Label layoutX="31.0" layoutY="235.0" prefHeight="18.0" prefWidth="97.0" text="Select schedule :" />
+</AnchorPane>

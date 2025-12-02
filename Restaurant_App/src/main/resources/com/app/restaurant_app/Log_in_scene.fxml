@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.app.restaurant_app.Log_in_scene_controller">
+   <Button layoutX="42.0" layoutY="224.0" mnemonicParsing="false" onAction="#Login_button_on_action" prefHeight="26.0" prefWidth="121.0" text="Log in" />
+   <Label layoutX="42.0" layoutY="106.0" text="Password :" />
+   <TextField fx:id="gmail_textfield" layoutX="103.0" layoutY="59.0" prefHeight="26.0" prefWidth="214.0" />
+   <TextField fx:id="password_textfield" layoutX="103.0" layoutY="102.0" prefHeight="26.0" prefWidth="213.0" />
+   <Label layoutX="43.0" layoutY="63.0" text="Gmail/ID :" />
+   <Button layoutX="194.0" layoutY="224.0" mnemonicParsing="false" onAction="#Sign_in_button_on_action" prefHeight="26.0" prefWidth="122.0" text="Sign in" />
+</AnchorPane>
